@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0888936527EA083E00D4A657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888936427EA083E00D4A657 /* AppDelegate.swift */; };
+		0888936727EA083E00D4A657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888936627EA083E00D4A657 /* SceneDelegate.swift */; };
+		0888936A27EA083E00D4A657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0888936827EA083E00D4A657 /* LaunchScreen.storyboard */; };
+		0888936D27EA083E00D4A657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0888936B27EA083E00D4A657 /* Main.storyboard */; };
+		0888937627EA083E00D4A657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888937527EA083E00D4A657 /* AppDelegate.swift */; };
+		0888937927EA083E00D4A657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0888937727EA083E00D4A657 /* Main.storyboard */; };
+		0888938127EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0888938027EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0888938B27EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0888938A27EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0888939127EA083E00D4A657 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0888935427EA083C00D4A657 /* Main.html */; };
+		0888939227EA083E00D4A657 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0888935427EA083C00D4A657 /* Main.html */; };
+		0888939327EA083E00D4A657 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0888935627EA083C00D4A657 /* Icon.png */; };
+		0888939427EA083E00D4A657 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0888935627EA083C00D4A657 /* Icon.png */; };
+		0888939527EA083E00D4A657 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0888935727EA083C00D4A657 /* Style.css */; };
+		0888939627EA083E00D4A657 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0888935727EA083C00D4A657 /* Style.css */; };
+		0888939727EA083E00D4A657 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0888935827EA083C00D4A657 /* Script.js */; };
+		0888939827EA083E00D4A657 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0888935827EA083C00D4A657 /* Script.js */; };
+		0888939927EA083E00D4A657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888935927EA083C00D4A657 /* ViewController.swift */; };
+		0888939A27EA083E00D4A657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888935927EA083C00D4A657 /* ViewController.swift */; };
+		0888939B27EA083E00D4A657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0888935A27EA083D00D4A657 /* Assets.xcassets */; };
+		0888939C27EA083E00D4A657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0888935A27EA083D00D4A657 /* Assets.xcassets */; };
+		0888939D27EA083E00D4A657 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888935C27EA083D00D4A657 /* SafariWebExtensionHandler.swift */; };
+		0888939E27EA083E00D4A657 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888935C27EA083D00D4A657 /* SafariWebExtensionHandler.swift */; };
+		088893B527EA083E00D4A657 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 088893B027EA083E00D4A657 /* LICENSE */; };
+		088893B627EA083E00D4A657 /* dashboard.css in Resources */ = {isa = PBXBuildFile; fileRef = 088893B127EA083E00D4A657 /* dashboard.css */; };
+		088893B727EA083E00D4A657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 088893B227EA083E00D4A657 /* README.md */; };
+		088893B827EA083E00D4A657 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 088893B327EA083E00D4A657 /* manifest.json */; };
+		088893B927EA083E00D4A657 /* dashboard.js in Resources */ = {isa = PBXBuildFile; fileRef = 088893B427EA083E00D4A657 /* dashboard.js */; };
+		088893BA27EA083E00D4A657 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 088893B027EA083E00D4A657 /* LICENSE */; };
+		088893BB27EA083E00D4A657 /* dashboard.css in Resources */ = {isa = PBXBuildFile; fileRef = 088893B127EA083E00D4A657 /* dashboard.css */; };
+		088893BC27EA083E00D4A657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 088893B227EA083E00D4A657 /* README.md */; };
+		088893BD27EA083E00D4A657 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 088893B327EA083E00D4A657 /* manifest.json */; };
+		088893BE27EA083E00D4A657 /* dashboard.js in Resources */ = {isa = PBXBuildFile; fileRef = 088893B427EA083E00D4A657 /* dashboard.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0888938227EA083E00D4A657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0888934E27EA083C00D4A657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0888937F27EA083E00D4A657;
+			remoteInfo = "Dashboard filter for GitHub Extension (iOS)";
+		};
+		0888938C27EA083E00D4A657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0888934E27EA083C00D4A657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0888938927EA083E00D4A657;
+			remoteInfo = "Dashboard filter for GitHub Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		088893A427EA083E00D4A657 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0888938127EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088893AB27EA083E00D4A657 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0888938B27EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0888935527EA083C00D4A657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0888935627EA083C00D4A657 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0888935727EA083C00D4A657 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0888935827EA083C00D4A657 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0888935927EA083C00D4A657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0888935A27EA083D00D4A657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0888935C27EA083D00D4A657 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0888936127EA083E00D4A657 /* Dashboard filter for GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dashboard filter for GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0888936427EA083E00D4A657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0888936627EA083E00D4A657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0888936927EA083E00D4A657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0888936C27EA083E00D4A657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0888936E27EA083E00D4A657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0888937327EA083E00D4A657 /* Dashboard filter for GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dashboard filter for GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0888937527EA083E00D4A657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0888937827EA083E00D4A657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0888937A27EA083E00D4A657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0888937B27EA083E00D4A657 /* Dashboard filter for GitHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dashboard filter for GitHub.entitlements"; sourceTree = "<group>"; };
+		0888938027EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dashboard filter for GitHub Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0888938527EA083E00D4A657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0888938A27EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dashboard filter for GitHub Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0888938F27EA083E00D4A657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0888939027EA083E00D4A657 /* Dashboard filter for GitHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dashboard filter for GitHub.entitlements"; sourceTree = "<group>"; };
+		088893B027EA083E00D4A657 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../github-dashboard/LICENSE"; sourceTree = "<group>"; };
+		088893B127EA083E00D4A657 /* dashboard.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = dashboard.css; path = "../../github-dashboard/dashboard.css"; sourceTree = "<group>"; };
+		088893B227EA083E00D4A657 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../github-dashboard/README.md"; sourceTree = "<group>"; };
+		088893B327EA083E00D4A657 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../github-dashboard/manifest.json"; sourceTree = "<group>"; };
+		088893B427EA083E00D4A657 /* dashboard.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = dashboard.js; path = "../../github-dashboard/dashboard.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0888935E27EA083E00D4A657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888937027EA083E00D4A657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888937D27EA083E00D4A657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888938727EA083E00D4A657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0888934D27EA083C00D4A657 = {
+			isa = PBXGroup;
+			children = (
+				0888935227EA083C00D4A657 /* Shared (App) */,
+				0888935B27EA083D00D4A657 /* Shared (Extension) */,
+				0888936327EA083E00D4A657 /* iOS (App) */,
+				0888937427EA083E00D4A657 /* macOS (App) */,
+				0888938427EA083E00D4A657 /* iOS (Extension) */,
+				0888938E27EA083E00D4A657 /* macOS (Extension) */,
+				0888936227EA083E00D4A657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0888935227EA083C00D4A657 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0888935927EA083C00D4A657 /* ViewController.swift */,
+				0888935A27EA083D00D4A657 /* Assets.xcassets */,
+				0888935327EA083C00D4A657 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		0888935327EA083C00D4A657 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0888935427EA083C00D4A657 /* Main.html */,
+				0888935627EA083C00D4A657 /* Icon.png */,
+				0888935727EA083C00D4A657 /* Style.css */,
+				0888935827EA083C00D4A657 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0888935B27EA083D00D4A657 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				088893AF27EA083E00D4A657 /* Resources */,
+				0888935C27EA083D00D4A657 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		0888936227EA083E00D4A657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0888936127EA083E00D4A657 /* Dashboard filter for GitHub.app */,
+				0888937327EA083E00D4A657 /* Dashboard filter for GitHub.app */,
+				0888938027EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */,
+				0888938A27EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0888936327EA083E00D4A657 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0888936427EA083E00D4A657 /* AppDelegate.swift */,
+				0888936627EA083E00D4A657 /* SceneDelegate.swift */,
+				0888936827EA083E00D4A657 /* LaunchScreen.storyboard */,
+				0888936B27EA083E00D4A657 /* Main.storyboard */,
+				0888936E27EA083E00D4A657 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		0888937427EA083E00D4A657 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0888937527EA083E00D4A657 /* AppDelegate.swift */,
+				0888937727EA083E00D4A657 /* Main.storyboard */,
+				0888937A27EA083E00D4A657 /* Info.plist */,
+				0888937B27EA083E00D4A657 /* Dashboard filter for GitHub.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		0888938427EA083E00D4A657 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0888938527EA083E00D4A657 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		0888938E27EA083E00D4A657 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0888938F27EA083E00D4A657 /* Info.plist */,
+				0888939027EA083E00D4A657 /* Dashboard filter for GitHub.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		088893AF27EA083E00D4A657 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				088893B027EA083E00D4A657 /* LICENSE */,
+				088893B127EA083E00D4A657 /* dashboard.css */,
+				088893B227EA083E00D4A657 /* README.md */,
+				088893B327EA083E00D4A657 /* manifest.json */,
+				088893B427EA083E00D4A657 /* dashboard.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0888936027EA083E00D4A657 /* Dashboard filter for GitHub (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088893A527EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub (iOS)" */;
+			buildPhases = (
+				0888935D27EA083E00D4A657 /* Sources */,
+				0888935E27EA083E00D4A657 /* Frameworks */,
+				0888935F27EA083E00D4A657 /* Resources */,
+				088893A427EA083E00D4A657 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0888938327EA083E00D4A657 /* PBXTargetDependency */,
+			);
+			name = "Dashboard filter for GitHub (iOS)";
+			productName = "Dashboard filter for GitHub (iOS)";
+			productReference = 0888936127EA083E00D4A657 /* Dashboard filter for GitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0888937227EA083E00D4A657 /* Dashboard filter for GitHub (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088893AC27EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub (macOS)" */;
+			buildPhases = (
+				0888936F27EA083E00D4A657 /* Sources */,
+				0888937027EA083E00D4A657 /* Frameworks */,
+				0888937127EA083E00D4A657 /* Resources */,
+				088893AB27EA083E00D4A657 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0888938D27EA083E00D4A657 /* PBXTargetDependency */,
+			);
+			name = "Dashboard filter for GitHub (macOS)";
+			productName = "Dashboard filter for GitHub (macOS)";
+			productReference = 0888937327EA083E00D4A657 /* Dashboard filter for GitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0888937F27EA083E00D4A657 /* Dashboard filter for GitHub Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088893A127EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub Extension (iOS)" */;
+			buildPhases = (
+				0888937C27EA083E00D4A657 /* Sources */,
+				0888937D27EA083E00D4A657 /* Frameworks */,
+				0888937E27EA083E00D4A657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dashboard filter for GitHub Extension (iOS)";
+			productName = "Dashboard filter for GitHub Extension (iOS)";
+			productReference = 0888938027EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0888938927EA083E00D4A657 /* Dashboard filter for GitHub Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088893A827EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub Extension (macOS)" */;
+			buildPhases = (
+				0888938627EA083E00D4A657 /* Sources */,
+				0888938727EA083E00D4A657 /* Frameworks */,
+				0888938827EA083E00D4A657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dashboard filter for GitHub Extension (macOS)";
+			productName = "Dashboard filter for GitHub Extension (macOS)";
+			productReference = 0888938A27EA083E00D4A657 /* Dashboard filter for GitHub Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0888934E27EA083C00D4A657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0888936027EA083E00D4A657 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0888937227EA083E00D4A657 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0888937F27EA083E00D4A657 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0888938927EA083E00D4A657 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 0888935127EA083C00D4A657 /* Build configuration list for PBXProject "Dashboard filter for GitHub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0888934D27EA083C00D4A657;
+			productRefGroup = 0888936227EA083E00D4A657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0888936027EA083E00D4A657 /* Dashboard filter for GitHub (iOS) */,
+				0888937227EA083E00D4A657 /* Dashboard filter for GitHub (macOS) */,
+				0888937F27EA083E00D4A657 /* Dashboard filter for GitHub Extension (iOS) */,
+				0888938927EA083E00D4A657 /* Dashboard filter for GitHub Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0888935F27EA083E00D4A657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888939327EA083E00D4A657 /* Icon.png in Resources */,
+				0888936A27EA083E00D4A657 /* LaunchScreen.storyboard in Resources */,
+				0888939127EA083E00D4A657 /* Main.html in Resources */,
+				0888939727EA083E00D4A657 /* Script.js in Resources */,
+				0888939B27EA083E00D4A657 /* Assets.xcassets in Resources */,
+				0888936D27EA083E00D4A657 /* Main.storyboard in Resources */,
+				0888939527EA083E00D4A657 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888937127EA083E00D4A657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888939427EA083E00D4A657 /* Icon.png in Resources */,
+				0888939627EA083E00D4A657 /* Style.css in Resources */,
+				0888937927EA083E00D4A657 /* Main.storyboard in Resources */,
+				0888939827EA083E00D4A657 /* Script.js in Resources */,
+				0888939C27EA083E00D4A657 /* Assets.xcassets in Resources */,
+				0888939227EA083E00D4A657 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888937E27EA083E00D4A657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088893BD27EA083E00D4A657 /* manifest.json in Resources */,
+				088893BC27EA083E00D4A657 /* README.md in Resources */,
+				088893BB27EA083E00D4A657 /* dashboard.css in Resources */,
+				088893BA27EA083E00D4A657 /* LICENSE in Resources */,
+				088893BE27EA083E00D4A657 /* dashboard.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888938827EA083E00D4A657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088893B827EA083E00D4A657 /* manifest.json in Resources */,
+				088893B727EA083E00D4A657 /* README.md in Resources */,
+				088893B627EA083E00D4A657 /* dashboard.css in Resources */,
+				088893B527EA083E00D4A657 /* LICENSE in Resources */,
+				088893B927EA083E00D4A657 /* dashboard.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0888935D27EA083E00D4A657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888939927EA083E00D4A657 /* ViewController.swift in Sources */,
+				0888936527EA083E00D4A657 /* AppDelegate.swift in Sources */,
+				0888936727EA083E00D4A657 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888936F27EA083E00D4A657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888939A27EA083E00D4A657 /* ViewController.swift in Sources */,
+				0888937627EA083E00D4A657 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888937C27EA083E00D4A657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888939D27EA083E00D4A657 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0888938627EA083E00D4A657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888939E27EA083E00D4A657 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0888938327EA083E00D4A657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0888937F27EA083E00D4A657 /* Dashboard filter for GitHub Extension (iOS) */;
+			targetProxy = 0888938227EA083E00D4A657 /* PBXContainerItemProxy */;
+		};
+		0888938D27EA083E00D4A657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0888938927EA083E00D4A657 /* Dashboard filter for GitHub Extension (macOS) */;
+			targetProxy = 0888938C27EA083E00D4A657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0888935427EA083C00D4A657 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0888935527EA083C00D4A657 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0888936827EA083E00D4A657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0888936927EA083E00D4A657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0888936B27EA083E00D4A657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0888936C27EA083E00D4A657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0888937727EA083E00D4A657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0888937827EA083E00D4A657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0888939F27EA083E00D4A657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088893A027EA083E00D4A657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		088893A227EA083E00D4A657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub.Extension";
+				PRODUCT_NAME = "Dashboard filter for GitHub Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088893A327EA083E00D4A657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub.Extension";
+				PRODUCT_NAME = "Dashboard filter for GitHub Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088893A627EA083E00D4A657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub";
+				PRODUCT_NAME = "Dashboard filter for GitHub";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088893A727EA083E00D4A657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub";
+				PRODUCT_NAME = "Dashboard filter for GitHub";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088893A927EA083E00D4A657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Dashboard filter for GitHub.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub.Extension";
+				PRODUCT_NAME = "Dashboard filter for GitHub Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		088893AA27EA083E00D4A657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Dashboard filter for GitHub.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub.Extension";
+				PRODUCT_NAME = "Dashboard filter for GitHub Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		088893AD27EA083E00D4A657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Dashboard filter for GitHub.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub";
+				PRODUCT_NAME = "Dashboard filter for GitHub";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		088893AE27EA083E00D4A657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Dashboard filter for GitHub.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dashboard filter for GitHub";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Dashboard-filter-for-GitHub";
+				PRODUCT_NAME = "Dashboard filter for GitHub";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0888935127EA083C00D4A657 /* Build configuration list for PBXProject "Dashboard filter for GitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0888939F27EA083E00D4A657 /* Debug */,
+				088893A027EA083E00D4A657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088893A127EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088893A227EA083E00D4A657 /* Debug */,
+				088893A327EA083E00D4A657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088893A527EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088893A627EA083E00D4A657 /* Debug */,
+				088893A727EA083E00D4A657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088893A827EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088893A927EA083E00D4A657 /* Debug */,
+				088893AA27EA083E00D4A657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088893AC27EA083E00D4A657 /* Build configuration list for PBXNativeTarget "Dashboard filter for GitHub (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088893AD27EA083E00D4A657 /* Debug */,
+				088893AE27EA083E00D4A657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0888934E27EA083C00D4A657 /* Project object */;
+}
